@@ -6,3 +6,8 @@ def reverse_string(s):
     :return: The reversed string.
     """
     return s[::-1]
+
+
+if __name__ == "__main__":
+    s = "hello"
+    print(f"Reversed string of '{s}' is '{reverse_string(s)}'")
